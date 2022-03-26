@@ -1,6 +1,6 @@
 var input = require('fs').readFileSync('./dev/stdin/file.txt', 'utf8');
 var lines = input.split('\n');
-
+// Definir listas também serve.
 let inteiro = +lines.shift()+0.001 // Verificar com o ricardo o motivo.
 let nota100,nota50,nota20,nota10,nota5,nota2,nota1;
 nota100 = parseInt(inteiro/100)

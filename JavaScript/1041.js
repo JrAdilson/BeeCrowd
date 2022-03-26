@@ -2,7 +2,6 @@ var input = require('fs').readFileSync('./dev/stdin/file.txt', 'utf8');
 var lines = input.split('\n');
 const pegarValores = (line) => line.split(" ").map(a => +a);
 let [x,y] = pegarValores(lines.shift())
-// Verificar com Ricardo.
 if(x == 0 && y == 0){
     console.log("Origem")
 }else if(x == 0){
