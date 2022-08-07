@@ -5,5 +5,5 @@ meses = int(dias/30)
 dias = dias % 30
 dias = dias
 print("%d ano(s)"%anos)
-print("%d mes(es"%meses)
+print("%d mes(es)"%meses)
 print("%d dia(s)"%dias)
